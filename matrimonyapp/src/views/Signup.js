@@ -5,8 +5,7 @@ import { Typography } from "../muiComponents/Typography";
 import { Grid } from "../muiComponents/Grid";
 import { TextField } from "../muiComponents/TextField";
 import React from "react";
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+
 import Box from "@mui/material/Box";
 import backgroundImage from '../images/bg1.jpeg';
 import { red } from '@mui/material/colors';
@@ -21,16 +20,7 @@ const styles = {
 
 
 
-// import "./App.css";
 
-
-
-// var cardStyle = {
-//   display: 'block',
-//   width: '30vw',
-//   transitionDuration: '0.3s',
-//   height: '35vw'
-// }
 
 function App() {
  

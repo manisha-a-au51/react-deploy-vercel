@@ -1,19 +1,15 @@
 import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
-// import { CardContent} from "../muiComponents/CardContent";
-// import { Card } from "../muiComponents/Card";
-import { Button } from "./muiComponents/Button";
+
+
+
 import { Typography } from "./muiComponents/Typography";
 import { Grid } from "./muiComponents/Grid";
-import profil from './images/profil.jpg';
+
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import ButtonBase from '@mui/material/ButtonBase';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import IconButton, { IconButtonProps } from '@mui/material/IconButton';
+
 import {  Card, CardContent,CardMedia} from '@mui/material';
-import { TextField} from "./muiComponents/TextField";
+
 import Navbar from './views/Navbar';
 import axios from 'axios';
 import  { useState } from "react";

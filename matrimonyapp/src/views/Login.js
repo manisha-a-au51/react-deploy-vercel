@@ -18,12 +18,7 @@ const styles = {
   height: '100vh',
 };
 
-// var cardStyle = {
-//   display: 'block',
-//   width: '30vw',
-//   transitionDuration: '0.3s',
-//   height: '35vw'
-// }
+
 
 
 function App() {

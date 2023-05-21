@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
 import {TextField} from '../muiComponents/TextField';
-import Autocomplete, { createFilterOptions } from '@material-ui/lab/Autocomplete';
-import IconButton from "@material-ui/core/IconButton";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import SearchIcon from "@material-ui/icons/Search";
 import { Button } from "../muiComponents/Button";
 import {Grid} from "../muiComponents/Grid";
 import axios from 'axios';
-// import "./App.css"
+
 const App = () => {
 const [caste, setCaste] = useState("");
 const [age, setAge] = useState("");
@@ -20,8 +16,7 @@ const handleSubmit=async(e)=>{
       method: 'get',
       url: 'http://localhost:5000/users/',
       data: {
-        // email:email,
-        // password:password
+       
        },
        params: {
          caste: caste,
@@ -29,7 +24,7 @@ const handleSubmit=async(e)=>{
        }
   });
     console.log(resp.data);
-    // window.location.href=`http://localhost:3000/Home`
+    
   }
   catch(e){
 
@@ -50,7 +45,7 @@ const handleChange = (event) => {
   };
 return (
 	<div style={{ marginLeft: '40%', marginTop: '60px' }}>
-	{/* <h3>Greetings from GeeksforGeeks!</h3> */}
+	
 	<Grid container spacing={8} justifyContent={"center"}>
 	<Grid xs={4} item>
                 <TextField
@@ -101,5 +96,4 @@ return (
 
 
 export default App
-// const rootElement=document.getElementById('root')
-// ReactDOM.render()
+
